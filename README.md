@@ -1,4 +1,4 @@
-# sppDel_tabularAcropora
+# Species delimitation in tabular Acropora from Sesoko Istand, Okinawa (Japan)
 
 Data from: Phased nuclear markers overcome species delimitation in Acropora corals, 2020, 
 
