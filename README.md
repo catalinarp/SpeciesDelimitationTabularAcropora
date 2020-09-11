@@ -1,4 +1,4 @@
-# Species delimitation in tabular Acropora from Sesoko Island, Okinawa (Japan)
+# Species delimitation in tabular <i>Acropora</i> from Sesoko Island, Okinawa (Japan)
 
 Data from: Solving the coral species conundrum, 2020
 
