@@ -8,6 +8,3 @@ All in the information in this repository corresponds to the supplementary infor
 
 /Breeding_trials:
 
-/SangerSequencing_data:
-
-/Targetcapture_data:
