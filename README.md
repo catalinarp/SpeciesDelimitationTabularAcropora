@@ -4,10 +4,13 @@
 
 All in the information in this repository corresponds to the supplementary information for the published paper. To see a detailed description of each item, read the corresponding README file in each folder:
 
-Morphology/: 
+Morphology/
 
-Breeding_trials/:
+Breeding_trials/
 
 Target_capture/
 
 Sanger_sequencing/
+
+
+![picture](Tabular_morphospp.png)
