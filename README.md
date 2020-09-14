@@ -13,4 +13,3 @@ Target_capture/
 Sanger_sequencing/
 
 
-![picture](Tabular_morphospp.png)
