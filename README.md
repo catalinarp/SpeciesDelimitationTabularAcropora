@@ -9,6 +9,6 @@ All in the information in this repository corresponds to the supplementary infor
 
 <b>Breeding_trials/</b>
 
-<b>Lolecular_approaches/</b>
+<b>Molecular_approaches/</b>
 
 ![Picture](Coralreef_Okinawa.jpg)
