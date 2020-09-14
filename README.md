@@ -1,4 +1,4 @@
-![Picture](Tabular_morphospp.png)
+![Picture](Coralreef_Okinawa.jpg)
 # Species delimitation in tabular <i>Acropora</i> from Sesoko Island (Okinawa, Japan)
 
 <i>Data from submitted manuscript:</i> C. Ramírez-Portilla, A. H. Baird, P. F. Cowman, A. M. Quattrini, S. Harii, F. Sinniger, J. F. Flot, Solving the coral species conundrum (2020)
