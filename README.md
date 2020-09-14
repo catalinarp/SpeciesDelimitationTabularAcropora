@@ -9,8 +9,6 @@ All in the information in this repository corresponds to the supplementary infor
 
 <b>Breeding_trials/</b>
 
-<b>Target_capture/</b>
-
-<b>Sanger_sequencing/</b>
+<b>Lolecular_approaches/</b>
 
 ![Picture](Coralreef_Okinawa.jpg)
