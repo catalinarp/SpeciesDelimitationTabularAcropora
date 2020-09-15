@@ -88,5 +88,5 @@ pltree(hc2, cex = 0.6, hang = -1, main = "Dendrogram", labels = descriptivechars
 
 # Complete method:
 hc3 <- agnes(disimatrix, method = "complete") # Calculates clustering
-pltree(hc3, cex = 0.6, hang = -1, main = "Dendrogram", labels = descriptivechars$Morphosp) # plots dendrogram using colony ID label
+pltree(hc3, cex = 0.6, hang = -1, main = "Dendrogram", labels = descriptivechars$Morphosp) # plots dendrogram using morpho-species label
 pltree(hc3, cex = 0.6, hang = -1, main = "Dendrogram", labels = descriptivechars$Colony_ID) # plots dendrogram using colony ID label
