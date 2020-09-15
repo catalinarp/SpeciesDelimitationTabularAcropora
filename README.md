@@ -5,15 +5,17 @@
 
 All in the information in this repository corresponds to the supplementary information for the manuscript. To see a detailed description per item, check the corresponding README file in each folder:
 
-<b>Morphology/</b><br>
-Contains datasets, information and examples of scripts used to perform the morphological assessment of the coral skeletons and the color information recorded in the field. 
+<p>
+  <b>Morphology/</b><br>
+  Contains datasets, information and examples of scripts used to perform the morphological assessment of the coral skeletons and the color information recorded in the field. 
 
-<b>Breeding_trials/</b><br>
-Contains datasets and examples of R commands used to perform the statistical analyses of the fertilization success results obtained from the breeding experiments performed <i>in vitro</i>.
+  <b>Breeding_trials/</b><br>
+  Contains datasets and examples of R commands used to perform the statistical analyses of the fertilization success results obtained from the breeding experiments performed <i>in   vitro</i>.
 
-<b>Molecular_approaches/</b><br>
-Contains examples of commands and scripts used to perform the analyses of both <i>target-capture sequencing data</i> from a subset of samples (n=9) and <i>Sanger sequencing data</i> from the complete set of individuals (n=36).
-<br>
+  <b>Molecular_approaches/</b><br>
+  Contains examples of commands and scripts used to perform the analyses of both <i>target-capture sequencing data</i> from a subset of samples (n=9) and <i>Sanger sequencing data</i>           from the complete set of individuals (n=36).
+  <br>
+ </p>
 
 ![Picture](Coralreef_Okinawa.jpg)
 <b>Graphical summary of the submitted manuscript: <i>Solving the coral species conundrum</i> (2020)</b><br>
