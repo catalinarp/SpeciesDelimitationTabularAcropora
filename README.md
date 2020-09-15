@@ -14,6 +14,7 @@ Contains datasets and examples of R commands used to perform the statistical ana
 <b>Molecular_approaches/</b><br>
 Contains examples of commands and scripts used to perform the analyses of both <i>target-capture sequencing data</i> from a subset of samples (n=9) and <i>Sanger sequencing data</i> from the complete set of individuals (n=36).
 <br>
+
 ![Picture](Coralreef_Okinawa.jpg)
 <b>Graphical summary of the submitted manuscript: <i>Solving the coral species conundrum</i> (2020)</b><br>
 Three independent lines of evidence – morphology, breeding trials and molecular approaches – yielded congruent species boundaries in a group of the ecologically important tabular <i>Acropora</i>. From left to right: Tabular <i>Acropora</i> at Sesoko Island outer reef (Okinawa, Japan). Hierarchical clustering analysis of qualitative morphological traits. Results from breeding compatibility trials between different pairs of parental crosses. Molecular approaches to species delimitation based on the three target-enrichment defined markers: TDH, DOPR, and ASNA.
