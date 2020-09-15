@@ -6,13 +6,13 @@
 All in the information in this repository corresponds to the supplementary information for the manuscript. To see a detailed description per item, check the corresponding README file in each folder:
 
 &ensp;&ensp;&ensp;<b>Morphology/</b><br>
-&ensp;&ensp;&ensp;Contains datasets, information and examples of scripts used to perform the morphological assessment of the coral skeletons and the color information recorded in the field.
+Contains datasets, information and examples of scripts used to perform the morphological assessment of the coral skeletons and the color information recorded in the field.
 
 &ensp;&ensp;&ensp;<b>Breeding_trials/</b><br>
-&ensp;&ensp;&ensp;Contains datasets and examples of R commands used to perform the statistical analyses of the fertilization success results obtained from the breeding experiments performed <i>in vitro</i>.
+Contains datasets and examples of R commands used to perform the statistical analyses of the fertilization success results obtained from the breeding experiments performed <i>in vitro</i>.
 
 &ensp;&ensp;&ensp;<b>Molecular_approaches/</b><br>
-&ensp;&ensp;&ensp;Contains examples of commands and scripts used to perform the analyses of both <i>target-capture sequencing data</i> from a subset of samples (n=9) and <i>Sanger sequencing data</i>           from the complete set of individuals (n=36).
+Contains examples of commands and scripts used to perform the analyses of both <i>target-capture sequencing data</i> from a subset of samples (n=9) and <i>Sanger sequencing data</i>           from the complete set of individuals (n=36).
   <br>
 
 
