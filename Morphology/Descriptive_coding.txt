@@ -1,0 +1,53 @@
+Type	Character 	Levels	Initial state	Re-coded
+Field observations 	Color	Yellow-brown (neon)	1	neon
+		Dark-brown (ochre)	2	brown
+		Orange-brown (tawny)	3	tawny
+		Grey-brown	4	grey
+Branch (B)	Branch thickness	Axial-dominated	1	axial
+		50/50	2	axialradial
+		Radial dominated	3	radial
+	Branch taper	Tapering	1	tapering
+		Terete	2	terete
+	Radial crowding	Radials don't touch	1	no
+		Some radials touch	2	some
+		Radials touching	3	most
+Axial corallite (AC)	Shape	Tubular	1	tubular
+		Conical	2	conical
+		Barrel	3	barrel
+	Primary septum relative to radius	<1/4 R	1	lessquarter
+		1/4 to 3/4 R	2	quarter
+		>3/4 R	3	morethreeq
+	# of prominent_directives	0	0	nod
+		1	1	oned
+		2	2	twod
+Radial corallites	Radial shape dominant	 Rounded lip 	1	rounded
+		Flaring lip 	2	flaring
+		Straight lip 	3	straight
+	Radial sizes	one size	1	single
+		two sizes	2	double
+		mixed	3	mixed
+		increasing down branch	4	increasing
+	Primary septum relative to radius	<1/4 R	1	short
+		1/4 to 3/4 R	2	medium
+		>3/4 R	3	long
+	# prominent_directives	0	0	zero
+		1	1	one
+		2	2	two
+	Angle to branch	0-30º	1	acute0
+		30-60º	2	acute30
+		60-90º	3	acute60
+		90º 	4	rightangle
+Coenosteum on radials (CR)	Type	costate	1	costater
+		reticulate	2	reticulater
+		spinous	3	spinousr
+	Spines	none	0	noner
+		simple	1	simpler
+		forked	2	forkedr
+		elaborate	3	elaborater
+Coenosteum between radials ( C )	Type	costate	1	costate
+		reticulate	2	reticulate
+		spinous	3	spinous
+	Spines	none	0	none
+		simple	1	simple
+		forked	2	forked
+		elaborate	3	elaborate
