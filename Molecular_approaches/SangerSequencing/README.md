@@ -1,1 +1,1 @@
-# <b>Molecular approaches files</b>
+# <b>Sanger sequencing files</b>
