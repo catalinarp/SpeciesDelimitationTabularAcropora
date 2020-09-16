@@ -4,8 +4,8 @@ Sequences were obtained by PCR-based amplification using both forward and revers
 
 #### Previously reported markers:
 + Mitochondrial putative control region (AcroCR) flanked by 12S ribosomal RNA at the 5' end and the gene cox3 at the 3' end
-+ Plasma membrane calcium-transporting ATPase (PMCA)
-+ Extended region of Frizzled-4 like homolog (FZD) from Ladner & Palumbi, <i>Mol. Ecol.</i> 2012, 21(9):2224-38.
++ Plasma membrane calcium-transporting ATPase (PMCA) as published by Ladner & Palumbi, <i>Mol. Ecol.</i> 2012, 21(9):2224-38.
++ Frizzled-4 like homolog (FZD) extended from the published by Ladner & Palumbi, <i>Mol. Ecol.</i> 2012, 21(9):2224-38.
 
 #### Markers defined from loci captured using target enrichment strategies:
 + L-threonine 3-dehydrogenase (TDH)
