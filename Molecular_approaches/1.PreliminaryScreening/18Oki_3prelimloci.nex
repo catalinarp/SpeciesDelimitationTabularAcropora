@@ -1,7 +1,0 @@
-#nexus
-begin sets;
-    charset part1 = AcroCRoutgroup.mafft_gapsrecoded.fasta: *;
-    charset part2 = PMCAoutgroup.consensus.mafft.fasta: *;
-    charset part3 = FZDoutgroup.consensus.mafft.fasta: *;
-    charpartition mine = F81+F:part1, HKY+F:part2, HKY+F:part3;
-end;
