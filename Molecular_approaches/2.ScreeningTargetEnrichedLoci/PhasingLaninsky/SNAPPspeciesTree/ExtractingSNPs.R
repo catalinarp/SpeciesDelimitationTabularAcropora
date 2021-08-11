@@ -8,7 +8,7 @@ library(chopper)
 library(phylotools)
 
 # 2. Set working directory: 
-setwd(dir ="~/Projects/Speciesdelimitation_tabularAcropora/MolecularAnalyses/TargetCapture/Laninsky_Phasing/Tree-based/working_fasta210/")
+setwd(dir ="~/working_fasta210/")
 
 # 3. Importing fasta and pulling out SNPs simultaneously:
 
