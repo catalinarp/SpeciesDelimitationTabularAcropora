@@ -1,7 +1,7 @@
 
 # Species delimitation in tabular <i>Acropora</i> from Sesoko Island (Okinawa, Japan)
 
-<b>Data from the submitted manuscript:</b> C. Ramírez-Portilla, A. H. Baird, P. F. Cowman, A. M. Quattrini, S. Harii, F. Sinniger, J. F. Flot, <i>Solving the coral species conundrum</i> (2021). 
+<b>Data from the submitted manuscript:</b> C. Ramírez-Portilla, A. H. Baird, P. F. Cowman, A. M. Quattrini, S. Harii, F. Sinniger, J. F. Flot, <i>Solving the coral species conundrum</i> (2021). Systematic Biology. 
 
 All in the information in this repository corresponds to the supplementary information for the manuscript. To see a detailed description per item, check the corresponding README file in each folder:
 
@@ -18,4 +18,4 @@ Contains examples of commands and scripts used to perform the analyses of both <
 
 ![Picture](Coralreef_Okinawa.jpg)
 <b>Figure 1. Graphical summary of the submitted manuscript: <i>Solving the coral species conundrum</i> (2020)</b><br>
-Three independent lines of evidence – morphology, breeding trials and molecular approaches – yielded congruent species boundaries in a group of the ecologically important tabular <i>Acropora</i>. From left to right: Tabular <i>Acropora</i> at Sesoko Island outer reef (Okinawa, Japan). Hierarchical clustering analysis of qualitative morphological traits. Results from breeding compatibility trials between different pairs of parental crosses. Molecular approaches to species delimitation based on the three target-enrichment defined markers after screening.
+Three independent lines of evidence – morphology, breeding trials and molecular approaches – yielded congruent species boundaries in a group of the ecologically important tabular <i>Acropora</i>. From left to right: Tabular <i>Acropora</i> at Sesoko Island outer reef (Okinawa, Japan). Hierarchical clustering analysis of qualitative morphological traits. Results from breeding compatibility trials between different pairs of parental crosses. Molecular approaches to species delimitation based on the three target-enrichment defined markers after screening. NOTE: Figures taken from the first submitted version,. All colors were modified by suggestion of one of the reviewers.
