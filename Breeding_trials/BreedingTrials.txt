@@ -1,0 +1,43 @@
+male_colony	female_colony	eggs	embryos	mutants	category	cross	fertratio
+na	32	91	2	0	control_self	control-bifurcata	0.02
+na	34	55	0	0	control_self	control-bifurcata	0.00
+na	26	75	0	0	control_self	control-cytherea	0.00
+na	29	42	0	0	control_self	control-cytherea	0.00
+na	21	100	0	0	control_self	control-hyacinthus	0.00
+na	23	65	0	0	control_self	control-hyacinthus	0.00
+32	26	120	0	0	interspecific cross	bifurcata-cytherea	0.00
+34	26	85	0	0	interspecific cross	bifurcata-cytherea	0.00
+32	29	75	0	0	interspecific cross	bifurcata-cytherea	0.00
+34	29	55	0	0	interspecific cross	bifurcata-cytherea	0.00
+26	32	75	3	0	interspecific cross	bifurcata-cytherea	0.04
+29	32	35	0	0	interspecific cross	bifurcata-cytherea	0.00
+26	34	85	0	0	interspecific cross	bifurcata-cytherea	0.00
+29	34	85	0	0	interspecific cross	bifurcata-cytherea	0.00
+32	21	100	0	0	interspecific cross	hyacinthus-bifurcata	0.00
+34	21	78	1	0	interspecific cross	hyacinthus-bifurcata	0.01
+32	23	95	1	0	interspecific cross	hyacinthus-bifurcata	0.01
+34	23	80	0	0	interspecific cross	hyacinthus-bifurcata	0.00
+21	32	47	0	0	interspecific cross	hyacinthus-bifurcata	0.00
+23	32	86	1	0	interspecific cross	hyacinthus-bifurcata	0.01
+21	34	104	0	0	interspecific cross	hyacinthus-bifurcata	0.00
+23	34	130	0	0	interspecific cross	hyacinthus-bifurcata	0.00
+26	21	95	0	0	interspecific cross	hyacinthus-cytherea	0.00
+29	21	55	1	0	interspecific cross	hyacinthus-cytherea	0.02
+26	23	45	0	0	interspecific cross	hyacinthus-cytherea	0.00
+29	23	55	0	0	interspecific cross	hyacinthus-cytherea	0.00
+21	26	100	0	1	interspecific cross	hyacinthus-cytherea	0.00
+23	26	70	0	0	interspecific cross	hyacinthus-cytherea	0.00
+21	29	45	0	0	interspecific cross	hyacinthus-cytherea	0.00
+23	29	90	0	0	interspecific cross	hyacinthus-cytherea	0.00
+34	32	1	95	0	intraspecific cross	bifurcata-bifurcata	0.99
+32	34	0	95	0	intraspecific cross	bifurcata-bifurcata	1.00
+29	26	3	100	0	intraspecific cross	cytherea-cytherea	0.97
+26	29	5	68	0	intraspecific cross	cytherea-cytherea	0.93
+23	21	0	111	0	intraspecific cross	hyacinthus-hyacinthus	1.00
+21	23	2	78	0	intraspecific cross	hyacinthus-hyacinthus	0.98
+32	32	73	2	0	self	self-bifurcata	0.03
+34	34	63	1	0	self	self-bifurcata	0.02
+26	26	100	0	0	self	self-cytherea	0.00
+29	29	71	1	0	self	self-cytherea	0.01
+21	21	85	0	0	self	self-hyacinthus	0.00
+23	23	80	2	0	self	self-hyacinthus	0.02
