@@ -2,10 +2,10 @@
 
 This folder contains the files and commands used for molecular species delimitation both using target-capture sequencing data and Sanger sequencing of PCR-based amplificated markers derived from target enrichment.
 
-## Target-capture sequencing
+## + Target-capture sequencing
 
 
-## Sanger sequencing
+## + Sanger sequencing
 Chromatograms and alignments used for molecular analyses for stages: <b>Preliminary screening of available molecular markers</b> and <b>Implementation of target-enrichment derived markers in molecular species delimitation</b> (see following table).
 
 
