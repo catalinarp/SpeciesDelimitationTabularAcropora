@@ -1,0 +1,64 @@
+1) Kruskal-Wallis rank sum test
+
+data:  crosses$Fertilization_ratio by typecross
+Kruskal-Wallis chi-squared = 23.26, df = 3, p-value =3.565e-05
+
+2) Pairwise comparisons using Nemenyi-test with Chi-squared approximation for independent samples 
+
+data:  crosses$Fertilization_ratio and typecross 
+
+                      Eggs only (control) Self  
+Self                  0.5240              -     
+Between morphospecies 0.9998              0.3542
+Within morphospecies  0.0034              0.1846
+                      Between morphospecies
+Self                  -                    
+Between morphospecies -                    
+Within morphospecies  0.0001               
+
+P value adjustment method: none 
+
+3) Pairwise comparisons using Dunn's-test for multiple comparisons of independent samples 
+
+data:  crosses$Fertilization_ratio and typecross 
+
+                      Eggs only (control) Self  
+Self                  0.8067              -     
+Between morphospecies 1.0000              0.4276
+Within morphospecies  0.0013              0.1677
+                      Between morphospecies
+Self                  -                    
+Between morphospecies -                    
+Within morphospecies  2.7e-05              
+
+P value adjustment method: bonferroni 
+
+4) Pairwise comparisons using Conover's-test for multiple comparisons of independent samples 
+
+data:  crosses$Fertilization_ratio and typecross 
+
+                      Eggs only (control) Self 
+Self                  0.208               -    
+Between morphospecies 1.000               0.072
+Within morphospecies  2.2e-05             0.016
+                      Between morphospecies
+Self                  -                    
+Between morphospecies -                    
+Within morphospecies  3.7e-07              
+
+P value adjustment method: bonferroni
+
+5) Pairwise comparisons using van der Waerden normal scores test for multiple comparisons of independent samples 
+
+data:  crosses$Fertilization_ratio and typecross 
+
+                      Eggs only (control) Self  
+Self                  0.2375              -     
+Between morphospecies 1.0000              0.0854
+Within morphospecies  8.9e-07             0.0007
+                      Between morphospecies
+Self                  -                    
+Between morphospecies -                    
+Within morphospecies  6.7e-09              
+
+P value adjustment method: bonferroni 
