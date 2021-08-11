@@ -1,0 +1,65 @@
+###--------------------- ASTRAL trees ---------------------###
+
+# 0. Create the raw input file containing the individual trees output form IQTree 
+#    with Maximum-likelihood "XXXcps2.treefile" for each one of the genes/loci you want to include.
+#    For this just copy paste them in a text file, and then save it as "XXX-IUPAC.cons.tre"
+
+# 1.  Contracting very low support branches (e.g., below 10% bootstrap support) from gene trees 
+#	  can improve accuracy somewhat. Thus, they recommend removing very low support branches using
+#	  the newick utilities:
+
+nw_ed  ../18Oki-Concatenated_outgroup/IUPAC_consensus/Loci_3nuTC/3nuTC_cps2.ufboot 'i & b<=10' o > 3nuTC_cps2.ufboot-BS10.tre
+nw_ed  ../18Oki-Concatenated_outgroup/IUPAC_consensus/Loci_3nuTC/3nuTC_cps2.ufboot 'i & b<=70' o > 3nuTC_cps2.ufboot-BS10.tre
+nw_ed 3TCloci-IUPAC.tre 'i & b<=10' o > 3TCloci-IUPAC-BS10.tre
+nw_ed 3TCloci-IUPAC.cons.tre 'i & b<=10' o > 3TCloci-IUPAC.cons-BS10.tre
+nw_ed 3TCloci-IUPAC.cons.tre 'i & b<=30' o > 3TCloci-IUPAC.cons-BS30.tre
+nw_ed 3TCloci1mt.cons.tre 'i & b<=10' o > 3TCloci1mt-IUPAC.cons-BS10.tre
+nw_ed 5nuloci1mt-IUPAC.cons.tre 'i & b<=10' o > 5nuloci1mt-IUPAC.cons-BS10.tre
+
+
+# 2. The main input is just a file that contains all the input gene trees in Newick format. 
+#    The input gene trees are treated as unrooted, whether or not they have a root. 
+#    The output of ASTRAL should also be treated as an unrooted tree.
+#    NOTE: When multiple individuals from the same species are available, to force the species 
+#	 to be monophyletic, a mapping file (species_file.txt) needs to be provided using the -a option. 
+
+java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
+	-i 3TCloci-IUPAC.cons-BS10.tre \
+	-o 2spp.3TCloci-IUPAC.cons-BS10-speciestrees-multiind.tre \
+	-a ../2species_file.txt \
+	2> 2spp.3TCloci-IUPAC-BS10.cons-speciestree-multiind.log
+	
+java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
+	-i 3TCloci-IUPAC.cons-BS10.tre \
+	-o 3TCloci-IUPAC.cons-BS10-speciestrees.tre \
+	2> 3TCloci-IUPAC-BS10.cons-speciestree.log
+	
+java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
+	-q 3TCloci-IUPAC-BS10-speciestrees-multiind.tre \
+	-i 3TCloci-IUPAC.cons-BS10.tre \
+	-o 3TCloci-IUPAC.cons-BS10_scored.tre \
+	2> 3TCloci-IUPAC.cons-BS10_scored.log
+
+	
+java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
+	-i 5nuloci1mt-IUPAC.cons-BS10.tre \
+	-o 5nuloci1mt-IUPAC.cons-BS10-speciestrees-multiind.tre \
+	-a species_file.txt \
+	2> 5nuloci1mt-IUPAC.cons-BS10-speciestree-multiind.log
+	
+java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
+	-i 5nuloci1mt-IUPAC.cons-BS10.tre \
+	-o 5nuloci1mt-IUPAC.cons-BS10-speciestrees.tre \
+	2> 5nuloci1mt-IUPAC.cons-BS10-speciestree.log
+	
+java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
+	-i 3TCloci1mt-IUPAC.cons-BS10.tre \
+	-o 3TCloci1mt-IUPAC.cons-BS10-speciestrees-multiind.tre \
+	-a 3species_file.txt \
+	2> 3TCloci1mt-IUPAC.cons-BS10-speciestrees-multiind.log
+
+java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
+	-i 3TCloci1mt-IUPAC.cons-BS10.tre \
+	-o 3TCloci1mt-IUPAC.cons-BS10-speciestrees.tre \
+	2> 3TCloci1mt-IUPAC.cons-BS10-speciestrees.log
+
