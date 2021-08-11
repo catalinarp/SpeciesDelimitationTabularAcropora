@@ -1,0 +1,19 @@
+## 1. Download the complete folder from the cluster##
+
+## 2. Go into the folder:
+
+cd results_f/
+
+mkdir results_f/all_k/;
+for i in results_f/k*/*; do cp $i results_f/all_k; done
+
+
+for i in k*/*; do cp $i all_k; done
+
+for filename in  results_f/all_k/*_f; do mv "$filename" "${filename//input5lociSS/input3lociSS}"; done
+
+## 3. Run CLUMMP for each combined file of a k you want to plot:
+
+cd results_f/all_k/combined/pop_k*
+
+/Applications/Academic_software/CLUMPP_MacOSX.1.1.2/CLUMPP paramfile
