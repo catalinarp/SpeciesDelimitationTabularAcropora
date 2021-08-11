@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='SNAPP' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+
+    <data
+id="snp3nuTC"
+spec="Alignment"
+name="rawdata">
+                    <sequence id="seq_Abif_AcfbifurcataC288_a" spec="Sequence" taxon="Abif_AcfbifurcataC288_a" totalcount="4" value="gaagggaggccacaaaag-aaaccatcatcagaatttaagacaa-ttt-acagttttgaaa---------a--a---aaaacggtct------------------tatcaacgaggagttattacactgaa--------tgggctgac-----gtttcgagcgttagccc----------------------------------------------ttcgtcagagcgaat------------agatgttgtgggtag"/>
+                    <sequence id="seq_Abif_AcfbifurcataC288_b" spec="Sequence" taxon="Abif_AcfbifurcataC288_b" totalcount="4" value="gaagggaggccacaaaagaaaaccatcatcagaatttaagacca-ttt-acagttttgaaagttcaacgga--a--ggaaacggtct------------------tatcaacgaggagttattacactgaa--------taggctgac-----gtttcgagcgttagccc----------------------------------------------ttcgtcagagcgaat------------agaggttgtgggttg"/>
+                    <sequence id="seq_Abif_AcfbifurcataC289_a" spec="Sequence" taxon="Abif_AcfbifurcataC289_a" totalcount="4" value="gaagggaagccacaaacgaaaaccatcatgagaatttaatacaagttt-acagttttgaaagttcaacgga-----ggaaaaaaggcagccgccttcattttggaagctgggagcccaac--cgtgaacaaaggaggtccgatgtaacttcgcgtttctgtaattattccaagtcgtttggcgggcaaagtgtctattaactatcctggtatgaaattggtttgagcgacttagagatggaaaaaagacttaaaattt"/>
+                    <sequence id="seq_Abif_AcfbifurcataC289_b" spec="Sequence" taxon="Abif_AcfbifurcataC289_b" totalcount="4" value="gaagggaagccacaaacgaaaaccatcatcagaatttaatacaagttt-acagttttgaaagttcaacgga-----ggaaaaaaggcagccgccttcattttggaagctgggagcccaac--cgtgaacaaaggaggtccgatgtaacttcgcgtttctgtaattattccaagtcgtttggcgggcaaagtgtctattaactatcctggtatgaaattggtttgagcgacttagagatggaaaaaagacttaaaattt"/>
+                    <sequence id="seq_Abif_AcfbifurcataC290_a" spec="Sequence" taxon="Abif_AcfbifurcataC290_a" totalcount="4" value="gaagggaggccacaaa-agaaaccatcatcagaatttaagacaagttt---------gaaagttcaacgga-----ggaaaaaagccagccgccttcattttggaagctgggagcccaac--cgtgaacaaaggaggtccgatgtaacttcgcgtttctgtaattattccaagtcgtttggcgggcaaagtgtctattaactatcctggtatgaaattggtttgagcgacttagagatggaaaaaagacttaaaattt"/>
+                    <sequence id="seq_Abif_AcfbifurcataC290_b" spec="Sequence" taxon="Abif_AcfbifurcataC290_b" totalcount="4" value="gaagggaggccacaaaagaaaaccatcatcagaatttaagacca-tttgacagttttgaaagttcaacgga-----ggaaaaaagccagccgccttcattttggaagctgggagcccgac--tgtgaacgcaggaggtccgatgtaacctcgtgtttctgtaattattccaagtcgtttggctggcaaagtgtctattaaatatcctggtatgaaattggtttgagcgacttagagatggaaaaaagacttaaaattt"/>
+                    <sequence id="seq_Acyt_Acfcytherea5C285_a" spec="Sequence" taxon="Acyt_Acfcytherea5C285_a" totalcount="4" value="-------------------------------------------------acagttttgaaggttcaacgga-----gg-acaaagctgtccgccttcattttggaagctgggagcccgac--tgtgaacgcaggaggtccgatgtaacctcgtgtttctgtaattattccaagtcgtttggctggcaaagtgtc----------------------------------------------------------------"/>
+                    <sequence id="seq_Acyt_Acfcytherea5C285_b" spec="Sequence" taxon="Acyt_Acfcytherea5C285_b" totalcount="4" value="-------------------------------------------------acagttttgaaggttcaacgga-----gg-acaaagctgtccgccttcattttggaagctgggagcccgac--tgtgaacgcaggaggtccgatgtaacctcgtgtttctgtaattattccaagtcgtttggctggcaaagtgtc----------------------------------------------------------------"/>
+                    <sequence id="seq_Acyt_Acfcytherea5C286_a" spec="Sequence" taxon="Acyt_Acfcytherea5C286_a" totalcount="4" value="gaagggaggccacaaaagaaaaccatcatcagaacttaatacaa-tat-acagttttgaaggtgcaacgga--a---aaaacggtctagccgccttcattttggaagctgggagcccaac--cgtgaacaaaggaggtccgagg----------------------------------------------------------------------------------------------------acaatgcaggacca"/>
+                    <sequence id="seq_Acyt_Acfcytherea5C286_b" spec="Sequence" taxon="Acyt_Acfcytherea5C286_b" totalcount="4" value="gaagggaggccacaaaagaaaaccatcatcagaatttaagacaagttc-acagttttgagagttcaacggc--aa-ggaaaaaagccagccgccttcattttggaagctgggagcccaac--cgtgaacaaaggaggtccgagg----------------------------------------------------------------------------------------------------acaatgcaggacca"/>
+                    <sequence id="seq_Acyt_Acfcytherea5C287_a" spec="Sequence" taxon="Acyt_Acfcytherea5C287_a" totalcount="4" value="gaagggaggccacaaaagaaaaccctcatcagaatttaagacaagttt-acagttttgaaggttcaacgga-----ggaaaaaatctagccgccttcattttggaagctgagagcccgac--tgtgaacaaaggaggtccgatgtaacctcgtgtttctgtaattattccaagtcgtttggctggcgaagtgtctattaactatcctggtatgaaattggtttgagcgacttagagatggaaaaaagacttaaaattt"/>
+                    <sequence id="seq_Acyt_Acfcytherea5C287_b" spec="Sequence" taxon="Acyt_Acfcytherea5C287_b" totalcount="4" value="gaagggaggccacaaaagaaaaccctcatcagaatttaagacaagttt-acagttttgaaggttcaacgga-----ggaaaaaatctagccgccttcattttggaagctgggagcccgac--tgtgaacaaaggaggtccgatgtaacctcgtgtttctgtaattattccaagtcgtttggctggcgaagtgtctattaactatactggtatgaaattggtttgagcgacttagagatggaaaaaagacttaaaattt"/>
+                    <sequence id="seq_Ahya_Acfhyacinthus1C282_a" spec="Sequence" taxon="Ahya_Acfhyacinthus1C282_a" totalcount="4" value="gaagggaggccacaaaagaaaaccatcatcagaatttaatacaagtttgacagttttgaaagttcaacgga-----ggaaaaaagccagccgccttcattttggaagctgggagcccaac--cgtgaacaaaggaggtccgatgtaacttcgcgtttctgaaattattccaagtcgtttggctggcaaagtgtctattaactatcctggtatgaaattggtatgaacgacttagagatggaa-aaagacttaaaattt"/>
+                    <sequence id="seq_Ahya_Acfhyacinthus1C282_b" spec="Sequence" taxon="Ahya_Acfhyacinthus1C282_b" totalcount="4" value="gaagggaggccacaaaagaaaaccatcatcagaatttaatctaagtttgacagttttgaaa---------a-----ggaaaaaagccagccgccttcattttggaagctgggagcccaac--cgtgaacaaaggaggtccgatgtaacttcgcgtttctgtaatcattccaagtcgtttggctggcaaagtgtctattaactatcctggtatgaaattggtttgagcgacttagagatggaacaaagacttaaaattt"/>
+                    <sequence id="seq_Ahya_Acfhyacinthus1C283_a" spec="Sequence" taxon="Ahya_Acfhyacinthus1C283_a" totalcount="4" value="aggattggtttgtggttatggggagcttgcctggaaatggacaa-ttt-acagttttgaaa---------a-----ggataaaagccagccgccttcattttggaagctgggagcccaac--cgtgaacaaaggaggtccgatgtaacttcgcgtttctgtaattattccaagtcgtttggcgggcaaagtgtctattaactatcctggtatgaaattggtttgagcgacttagagatggaaaaaagacttaaaattt"/>
+                    <sequence id="seq_Ahya_Acfhyacinthus1C283_b" spec="Sequence" taxon="Ahya_Acfhyacinthus1C283_b" totalcount="4" value="aggattggtttgtggttatggggagcttgcctggaaatggacaagttt-acagttttgaaagttcaacgga-----ggaacaaagctgtccgccttcattttggaagctgggagcccgac--tgtgaacgcaggaggtccgatgtaacctcgtgtttctgtaattattccaagtcgtttggctggcaaagtgtctattaaatatcctggtatgaaattggtttgagcgacttagagatgggaaaaagacttaaaattt"/>
+                    <sequence id="seq_Ahya_Acfhyacinthus1C284_a" spec="Sequence" taxon="Ahya_Acfhyacinthus1C284_a" totalcount="4" value="gaagggaggccacaaaagaaaaccatcatcagaatttaagacaagttt-acagttttgaaagttcaacgga-----aaaaacggtctagccgccttcattttggaagcggggagcccgac--cgtgaacaaaggaggtccgatgtaacttcgcgtttctgaaattattccaagtcgtttggctggcaaagtgtctattaactatcctggtatgaaattggtttgagcgacttagagatggaaaaaagacttaaaattt"/>
+                    <sequence id="seq_Ahya_Acfhyacinthus1C284_b" spec="Sequence" taxon="Ahya_Acfhyacinthus1C284_b" totalcount="4" value="gaagggaggccacaaaagaaaaccatcatcagaatttaagacaggcttgacagtttttcaggttcaacggaacaaaggaaaaaagccagccgccttcattttggaagctgggagcccaac--cgtgaacaaaggaggtccgatgtaacttcgcgtttctgaaattattccaagtcgtttggctggcaaagtgtctattaactatcctggtatgaaattggtttgagcgacttagagatggaaaaaagacttaaaattt"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000" preBurnin="100000" storeEvery="1000">
+    <state id="state" spec="State" storeEvery="1000">
+        <stateNode id="Tree.snp3nuTC" spec="beast.util.ClusterTree" clusterType="upgma" nodetype="snap.NodeData">
+            <taxa id="snap.snp3nuTC" spec="snap.Data" dataType="integerdata">
+                <rawdata idref="snp3nuTC"/>
+                <taxonset id="Ahya" spec="TaxonSet">
+                    <taxon id="Ahya_Acfhyacinthus1C282_a" spec="Taxon"/>
+                    <taxon id="Ahya_Acfhyacinthus1C282_b" spec="Taxon"/>
+                    <taxon id="Ahya_Acfhyacinthus1C283_a" spec="Taxon"/>
+                    <taxon id="Ahya_Acfhyacinthus1C283_b" spec="Taxon"/>
+                    <taxon id="Ahya_Acfhyacinthus1C284_a" spec="Taxon"/>
+                    <taxon id="Ahya_Acfhyacinthus1C284_b" spec="Taxon"/>
+                </taxonset>
+                <taxonset id="Abif" spec="TaxonSet">
+                    <taxon id="Abif_AcfbifurcataC288_a" spec="Taxon"/>
+                    <taxon id="Abif_AcfbifurcataC288_b" spec="Taxon"/>
+                    <taxon id="Abif_AcfbifurcataC289_a" spec="Taxon"/>
+                    <taxon id="Abif_AcfbifurcataC289_b" spec="Taxon"/>
+                    <taxon id="Abif_AcfbifurcataC290_a" spec="Taxon"/>
+                    <taxon id="Abif_AcfbifurcataC290_b" spec="Taxon"/>
+                </taxonset>
+                <taxonset id="Acyt" spec="TaxonSet">
+                    <taxon id="Acyt_Acfcytherea5C285_a" spec="Taxon"/>
+                    <taxon id="Acyt_Acfcytherea5C285_b" spec="Taxon"/>
+                    <taxon id="Acyt_Acfcytherea5C286_a" spec="Taxon"/>
+                    <taxon id="Acyt_Acfcytherea5C286_b" spec="Taxon"/>
+                    <taxon id="Acyt_Acfcytherea5C287_a" spec="Taxon"/>
+                    <taxon id="Acyt_Acfcytherea5C287_b" spec="Taxon"/>
+                </taxonset>
+            </taxa>
+            <parameter id="RealParameter.0" spec="parameter.RealParameter" lower="0.0" name="clock.rate" upper="0.0">1.0</parameter>
+        </stateNode>
+        <parameter id="lambda" spec="parameter.RealParameter" lower="0.0" name="stateNode">10.0</parameter>
+        <parameter id="coalescenceRate" spec="parameter.RealParameter" name="stateNode">10.0</parameter>
+    </state>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <prior id="lambdaPrior.snp3nuTC" name="distribution" x="@lambda">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="alpha">2.0</parameter>
+                    <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="beta">200.0</parameter>
+                </Gamma>
+            </prior>
+            <distribution id="snapprior.snp3nuTC" spec="snap.likelihood.SnAPPrior" coalescenceRate="@coalescenceRate" lambda="@lambda" tree="@Tree.snp3nuTC">
+                <parameter id="alpha" spec="parameter.RealParameter" estimate="false" lower="0.0" name="alpha">2.0</parameter>
+                <parameter id="beta" spec="parameter.RealParameter" estimate="false" lower="0.0" name="beta">200.0</parameter>
+                <parameter id="kappa" spec="parameter.RealParameter" estimate="false" lower="0.0" name="kappa">1.0</parameter>
+            </distribution>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution">
+            <distribution id="treeLikelihood.snp3nuTC" spec="snap.likelihood.SnAPTreeLikelihood" data="@snap.snp3nuTC" non-polymorphic="false" pattern="coalescenceRate" tree="@Tree.snp3nuTC">
+                <siteModel id="MutationSiteModel.snp3nuTC" spec="SiteModel">
+                    <parameter id="mutationRate" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="shape" spec="parameter.RealParameter" estimate="false" name="shape">2.0</parameter>
+                    <parameter id="proportionInvariant" spec="parameter.RealParameter" estimate="false" name="proportionInvariant">0.0</parameter>
+                    <substModel id="MutationModel" spec="snap.likelihood.SnapSubstitutionModel" coalescenceRate="@coalescenceRate">
+                        <parameter id="u" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRateU">1.0</parameter>
+                        <parameter id="v" spec="parameter.RealParameter" lower="0.0" name="mutationRateV">1.0</parameter>
+                    </substModel>
+                </siteModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="NodeSwapper" spec="snap.operators.NodeSwapper" tree="@Tree.snp3nuTC" weight="0.5"/>
+
+    <operator id="NodeBudger" spec="snap.operators.NodeBudger" size="0.5" tree="@Tree.snp3nuTC" weight="0.5"/>
+
+    <operator id="TreeScaler" spec="snap.operators.ScaleOperator" scaleFactor="0.25" tree="@Tree.snp3nuTC" weight="0.5"/>
+
+    <operator id="GammaMover" spec="snap.operators.GammaMover" coalescenceRate="@coalescenceRate" scale="0.5" weight="8.0"/>
+
+    <operator id="RateMixer" spec="snap.operators.RateMixer" coalescenceRate="@coalescenceRate" scaleFactors="0.25" tree="@Tree.snp3nuTC" weight="1.0"/>
+
+    <operator id="lambdaScaler" spec="snap.operators.ScaleOperator" parameter="@lambda" scaleFactor="0.75" weight="1.0"/>
+
+    <logger id="tracelog" spec="Logger" fileName="SNPsTCsnap.log" logEvery="1000" model="@posterior">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log id="ThetaLogger" spec="snap.ThetaLogger" coalescenceRate="@coalescenceRate"/>
+        <log id="TreeHeightLogger" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.snp3nuTC"/>
+    </logger>
+
+    <logger id="screenlog" spec="Logger" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog" spec="Logger" fileName="SNPsTCssnap.trees" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.snp3nuTC" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.snp3nuTC">
+            <metadata id="theta" spec="snap.RateToTheta" coalescenceRate="@coalescenceRate"/>
+        </log>
+    </logger>
+
+</run>
+
+</beast>
