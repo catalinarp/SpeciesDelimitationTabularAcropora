@@ -1,4 +1,4 @@
-# <b>Morphology files</b>
+# <b>Morphological taxonomy assessment</b>
 
 ## Informative files
 <b>Characters.txt</b><br>
