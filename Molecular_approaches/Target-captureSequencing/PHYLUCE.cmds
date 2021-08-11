@@ -1,0 +1,76 @@
+#!/bin/bash
+
+## Modules that can be required:
+module load java/1.7.0-openjdk
+module load python/2.7.14
+module load anaconda2
+
+# Example 1: Recover assembled contigs for the nine tabular samples by matching them to the exon derived baits employing PHYLUCE
+
+source activate phyluce
+
+phyluce_assembly_get_match_counts \
+    --locus-db probe.matches.sqlite \
+    --taxon-list-config acro_phase.conf \
+    --taxon-group 'acro_phase' \
+    --incomplete-matrix \
+    --output taxon-sets/acro-phase/exon/acro-phase-exon-incomplete.conf
+
+cd taxon-sets/acro-phase/exon/
+mkdir log
+
+phyluce_assembly_get_fastas_from_match_counts \
+    --contigs Assemblies \
+    --locus-db probe.matches.sqlite \
+    --match-count-output acro-phase-exon-incomplete.conf \
+    --output acro-phase-exon-incomplete.fasta \
+    --incomplete-matrix acro-phase-exon-incomplete.incomplete \
+    --log-path log
+
+# Explode the FASTA by taxon :
+phyluce_assembly_explode_get_fastas_file \
+    --input Loci/acro-phase-exon-incomplete.fasta \
+    --output exploded-exon-fastas \
+    --by-taxon
+
+# Get summary stats on the FASTA files:
+for i in exploded-exon-fastas/*.fasta;
+do
+    phyluce_assembly_get_fasta_lengths --input $i --csv;
+done
+
+
+### Example 2: Recover assembled contigs for the nine tabular samples by matching them to the UCE derived baits employing PHYLUCE
+
+source activate phyluce
+
+phyluce_assembly_get_match_counts \
+    --locus-db probe.matches.sqlite \
+    --taxon-list-config acro_phase.conf \
+    --taxon-group 'acro_phase' \
+    --incomplete-matrix \
+    --output taxon-sets/acro-phase/uce/acro-phase-uce-incomplete.conf
+
+cd taxon-sets/acro-phase/uce/
+mkdir log
+
+phyluce_assembly_get_fastas_from_match_counts \
+    --contigs Assemblies \
+    --locus-db probe.matches.sqlite \
+    --match-count-output acro-phase-uce-incomplete.conf \
+    --output acro-phase-uce-incomplete.fasta \
+    --incomplete-matrix acro-phase-uce-incomplete.incomplete \
+    --log-path log
+
+# Explode the FASTA by taxon :
+phyluce_assembly_explode_get_fastas_file \
+    --input Loci/acro-phase-uce-incomplete.fasta \
+    --output exploded-uce-fastas \
+    --by-taxon
+
+# Get summary stats on the FASTA files:
+for i in exploded-uce-fastas/*.fasta;
+do
+    phyluce_assembly_get_fasta_lengths --input $i --csv;
+done
+
