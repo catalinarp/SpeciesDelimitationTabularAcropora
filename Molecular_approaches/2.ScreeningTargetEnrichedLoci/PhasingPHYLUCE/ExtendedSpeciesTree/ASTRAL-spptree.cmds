@@ -1,0 +1,31 @@
+E### Analysis with ASTRAL and SODA of the target capture dataset ###
+
+## 1. Generate ML trees of all loci with IQ-TREE:
+
+for i in *.fasta; do
+	iqtree -s $i -alrt 1000 -B 1000 -bnni -lbp 1000 -pre "$i"_cps2 -m MFP+MERGE;
+done
+
+## 2. Removing low-support branches with Newick utilities:
+
+for i in *cps2.treefile; do
+	 nw_ed $i 'i & b<=10' o > "$i"-BS10.tre ;
+done
+
+## 3. Put all ML trees in a single file
+
+cat *-BS10.tre > gblocks-79loci-BS10.tree
+
+## 4. Run ASTRAL without using prior: 
+
+java -jar /usr/bin/SODA/Astral/astral.5.7.3.jar \
+	-i gblocks-79loci-BS10.tree \
+	-o gblocks-79loci-BS10-extendedspptree.tre \
+	2> gblocks-79loci-BS10-extendedspptree.log
+
+## 5. Run SODA species delimitation
+
+python3.8 run_delimitation.py \
+	-i TargetCap79loci/gblocks-79loci-BS10.tree \
+	-d TargetCap79loci/output \
+	-o TargetCap79loci/SODAspp-delim.txt
