@@ -8,6 +8,9 @@ This folder contains the files and commands used for molecular species delimitat
 ## Sanger sequencing
 Chromatograms and alignments used for molecular analyses.
 
+
+<b>Summary of techniques, loci and methods used in the different stages of the molecular analyses performed in this study.</b> Detailed information about the techniques, the number of loci, the number of individual samples, and the general pre-processing steps and downstream analyses used in each stage of the molecular approaches used in this study.
+
 | Stage                                                                                        |  Molecular technique |   |   |   |
 |----------------------------------------------------------------------------------------------|---|---|---|---|
 | <b>Preliminary screening of available molecular markers</b>                                  |  PCR-based amplification followed by Sanger sequencing |   |   |   |
