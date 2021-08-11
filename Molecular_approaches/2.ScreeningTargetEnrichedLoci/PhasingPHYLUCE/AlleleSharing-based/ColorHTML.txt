@@ -1,0 +1,9 @@
+Acropora_CFhyacinthus1C282	#02266E
+Acropora_CFhyacinthus1C283	#02266E
+Acropora_CFhyacinthus1C284	#02266E
+Acropora_CFbifurcataC288	#b97c04
+Acropora_CFbifurcataC289	#b97c04
+Acropora_CFbifurcataC290	#b97c04
+Acropora_CFcytherea5C285	#0E682C
+Acropora_CFcytherea5C286	#0E682C
+Acropora_CFcytherea5C287	#0E682C
