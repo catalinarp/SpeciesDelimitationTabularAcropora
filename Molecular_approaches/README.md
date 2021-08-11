@@ -10,7 +10,7 @@ Chromatograms and alignments used for molecular analyses for stages: <b>Prelimin
 
 <br>
 <b>Summary Table | Techniques, loci and methods used in the different stages of the molecular analyses performed in this study.</b> Detailed information about the techniques, the number of loci, the number of individual samples, and the general pre-processing steps and downstream analyses used in each stage of the molecular approaches used in this study can be found in the following table:
-
+<br>
 
 | Stage                                                                                 | Molecular technique                                                                                                              | No. loci/markers [n= samples]                     | Pre-processing                                                                                                                           | Downstream analyses                                                                                                                               |
 |---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
