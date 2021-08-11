@@ -1,0 +1,81 @@
+#!/bin/bash
+
+## Modules that can be required:
+module load java/1.7.0-openjdk
+module load python/2.7.14
+module load anaconda2
+
+# 1. Align loci for the nine tabular samples employing PHYLUCE:
+
+source activate phyluce
+
+## For exon-derived loci:
+
+phyluce_align_seqcap_align \
+    --fasta acro-phase-exon-incomplete.fasta  \
+    --output untrimmed-mafft-nexus-exon \
+    ––no-trim \
+    --taxa 9 \
+    --aligner mafft \
+    --cores 20 \
+    --incomplete-matrix \
+    --log-path log
+	
+# Get summary stats
+phyluce_align_get_align_summary_data \
+    --alignments untrimmed-mafft-nexus-exon \
+    --cores 20 \
+    --log-path log
+
+## For UCE-derived loci:
+
+phyluce_align_seqcap_align \
+    --fasta acro-phase-uce-incomplete.fasta  \
+    --output untrimmed-mafft-nexus-uce \
+    ––no-trim \
+    --taxa 9 \
+    --aligner mafft \
+    --cores 20 \
+    --incomplete-matrix \
+    --log-path log
+	
+# Get summary stats
+phyluce_align_get_align_summary_data \
+    --alignments untrimmed-mafft-nexus-uce \
+    --cores 20 \
+    --log-path log
+
+
+# 2. Trim the aligned loci globally using Gblocks implemented by PHYLUCE:
+
+## For exon-derived loci:
+phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed \
+    --alignments untrimmed-mafft-nexus-exon \
+    --output gblocks-untrimmed-mafft-nexus-exon \
+    --cores 40 \
+    --log log
+
+# Get summary stats
+phyluce_align_get_align_summary_data \
+    --alignments gblocks-untrimmed-mafft-nexus-exon \
+    --cores 20 \
+    --log-path log    
+
+## For UCE-derived loci:
+phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed \
+    --alignments untrimmed-mafft-nexus-uce \
+    --output gblocks-untrimmed-mafft-nexus-uce \
+    --cores 40 \
+    --log log
+
+# Get summary stats
+phyluce_align_get_align_summary_data \
+    --alignments gblocks-untrimmed-mafft-nexus-uce \
+    --cores 20 \
+    --log-path log    
+
+
+# 3. Now follow the "phase_everyone v0.1" pipeline in: https://github.com/laninsky/reference_aligning_to_established_loci/tree/master/phase_everyone
+
+
+# 4. Once alleles are obtained, align and process them following steps 5 – 8 from the pipeline "reference_ aligning_to_established_loci v0.0.3" in: https://github.com/laninsky/reference_aligning_to_established_loci  
