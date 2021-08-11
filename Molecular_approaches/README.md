@@ -1,15 +1,17 @@
 # <b>Molecular species delimitation</b>
 
-This folder contains the files and commands used for molecular species dlimitation both using target-capture sequencing data and Sanger sequencing of PCR-based amplificated markers derived from target enrichment.
+This folder contains the files and commands used for molecular species delimitation both using target-capture sequencing data and Sanger sequencing of PCR-based amplificated markers derived from target enrichment.
+
+## Target-capture sequencing
 
 
-## Informative files
-<b>Characters.txt</b><br>
-Quantitative and qualitative characters used for morphological taxonomic assessment of tabular <i>Acropora</i> specimens (table S1).<br>
-Color (1) was assessed from field observation and photographs from each of the colonies. The rest of the descriptive (qualitative) characters (2 – 16) were recorded from overall observation of skeleton fragments. Morphometrical (quantitative and categorical) characters (17 – 19) were measured directly from the branches using Vernier calipers. Corallite features (20 – 27) were obtained using a stereo microscope and an ocular graticule (except for 23 that was counted from above). B= branch, AC= axial corallite, RC= radial corallite, R= radius.
+## Sanger sequencing
+Chromatograms and alignments used for molecular analyses.
 
-<b>Descriptive_coding.txt</b><br>
-Descriptive variables were re-coded as characters for the analyses according to this file. Re-coded file saved as: QLDescriptiveData_recodedDEP.txt
+| Stage                                                                                        |  Molecular technique |   |   |   |
+|----------------------------------------------------------------------------------------------|---|---|---|---|
+| <b>Preliminary screening of available molecular markers</b>                                  |  PCR-based amplification followed by Sanger sequencing |   |   |   |
+| <b>Screening of target-enriched loci</b>                                                     | Target enrichment and high-throughput sequencing of conserved elements (exons and UCEs) captured using the hexacoral-v2 bait set  |   |   |   |
+| <b>Implementation of target-enrichment derived markers in molecular species delimitation</b> |  PCR-based amplification followed by Sanger sequencing |   |   |   |
 
-## Data
-<b>QTMorphometricDataCategorizedDEP.txt</b><br>T
+
