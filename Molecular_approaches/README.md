@@ -6,7 +6,7 @@ This folder contains the files and commands used for molecular species delimitat
 
 
 ## Sanger sequencing
-Chromatograms and alignments used for molecular analyses.
+Chromatograms and alignments used for molecular analyses for stages: <b>Preliminary screening of available molecular markers</b> and <b>Implementation of target-enrichment derived markers in molecular species delimitation</b> (see following table).
 
 
 Detailed information about the techniques, the number of loci, the number of individual samples, and the general pre-processing steps and downstream analyses used in each stage of the molecular approaches used in this study can be found in the following table:
