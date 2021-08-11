@@ -23,7 +23,7 @@ nw_ed 3TCloci-IUPAC.cons.tre 'i & b<=10' o > 3TCloci-IUPAC.cons-BS10.tre
 java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
 	-i 3TCloci-IUPAC.cons-BS10.tre \
 	-o 2spp.3TCloci-IUPAC.cons-BS10-speciestrees-multiind.tre \
-	-a ../2species_file.txt \
+	-a ../3species_file.txt \
 	2> 2spp.3TCloci-IUPAC-BS10.cons-speciestree-multiind.log
 	
 java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
@@ -36,27 +36,4 @@ java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
 	-i 3TCloci-IUPAC.cons-BS10.tre \
 	-o 3TCloci-IUPAC.cons-BS10_scored.tre \
 	2> 3TCloci-IUPAC.cons-BS10_scored.log
-
-	
-java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
-	-i 5nuloci1mt-IUPAC.cons-BS10.tre \
-	-o 5nuloci1mt-IUPAC.cons-BS10-speciestrees-multiind.tre \
-	-a species_file.txt \
-	2> 5nuloci1mt-IUPAC.cons-BS10-speciestree-multiind.log
-	
-java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
-	-i 5nuloci1mt-IUPAC.cons-BS10.tre \
-	-o 5nuloci1mt-IUPAC.cons-BS10-speciestrees.tre \
-	2> 5nuloci1mt-IUPAC.cons-BS10-speciestree.log
-	
-java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
-	-i 3TCloci1mt-IUPAC.cons-BS10.tre \
-	-o 3TCloci1mt-IUPAC.cons-BS10-speciestrees-multiind.tre \
-	-a 3species_file.txt \
-	2> 3TCloci1mt-IUPAC.cons-BS10-speciestrees-multiind.log
-
-java -jar /Applications/Academic_software/ASTRAL/Astral/astral.5.7.3.jar \
-	-i 3TCloci1mt-IUPAC.cons-BS10.tre \
-	-o 3TCloci1mt-IUPAC.cons-BS10-speciestrees.tre \
-	2> 3TCloci1mt-IUPAC.cons-BS10-speciestrees.log
 
