@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='SNAPP' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+
+    <data
+id="snp3nuTC_H3_1sp"
+spec="Alignment"
+name="rawdata">
+                    <sequence id="seq_18Oki01_complex" spec="Sequence" taxon="18Oki01_complex" totalcount="4" value="tgtctaagcttg-----a----a---ggt---tccrgaga-c-ycag----ccttggccgcgg--gaatgtttag----gacwrrwsaarsttagrgcccagta"/>
+                    <sequence id="seq_18Oki02_complex" spec="Sequence" taxon="18Oki02_complex" totalcount="4" value="tgtctaagcttg-----a----a---kgy---tccggaga-c-tcag----ccttggccgcgg--gaatgtttag----gacagaagaaacttaggrcccagta"/>
+                    <sequence id="seq_18Oki03_complex" spec="Sequence" taxon="18Oki03_complex" totalcount="4" value="tgtctaagcttg-----a----a---tgc---tccggaga-c-ycag----ycttggccgcgg--gaatgtttag----gacagaagaaacttaggrcccagta"/>
+                    <sequence id="seq_18Oki04_complex" spec="Sequence" taxon="18Oki04_complex" totalcount="4" value="tstctmagctyg-----a----a---tgy---tccggatagt-tcag----ccttggccgcgg--gaatgtttag----gacagaagaaactcagagcccagta"/>
+                    <sequence id="seq_18Oki05_complex" spec="Sequence" taxon="18Oki05_complex" totalcount="4" value="tgtctmagcttg-----a----a---kgy---tccrgaga-c-tcag----ccttggccgcsg--gaatgtttag----gacaraagaaacttaggrcccagta"/>
+                    <sequence id="seq_18Oki06_complex" spec="Sequence" taxon="18Oki06_complex" totalcount="4" value="tgtctaagcttg-----a----a---tgytactccggaga-c-ycag----ccttggccgcgg--gaatgtttag----gacaraagaaacttasrryccagta"/>
+                    <sequence id="seq_18Oki07_complex" spec="Sequence" taxon="18Oki07_complex" totalcount="4" value="cgtctcggctta-----aatatt---tgt---kccggagr-c-tcag----ccttggccgcgg--gaatgkttwg----gacagaagwtacttagggyccagta"/>
+                    <sequence id="seq_18Oki08_complex" spec="Sequence" taxon="18Oki08_complex" totalcount="4" value="tgtctcggctta-----aatatt---tgt---kccggaga-c-tcag----ccttggccgcgg--gaatgttttg----gacagaagttacttagggc-cagta"/>
+                    <sequence id="seq_18Oki09_complex" spec="Sequence" taxon="18Oki09_complex" totalcount="4" value="ygtctcggctta-----a--atw---tgt---tccggaga-c-tcag----ccttggccgcgg--gaatgtttag----gacagaagawacttagggyccagta"/>
+                    <sequence id="seq_18Oki10_complex" spec="Sequence" taxon="18Oki10_complex" totalcount="4" value="tgtctcggctta-----a--ata---tgt---kccrgaga-c-tcag----ccttggccgcgg--gaatgkttwg----gacagaagwtacttagggcccagta"/>
+                    <sequence id="seq_18Oki11_complex" spec="Sequence" taxon="18Oki11_complex" totalcount="4" value="ygtctcggctta---------at---tgt---tccggagr-c-tcag----ccttggccgcgg--gaatgkttag----gacagaagawacttagggtccagta"/>
+                    <sequence id="seq_18Oki12_complex" spec="Sequence" taxon="18Oki12_complex" totalcount="4" value="ygtctcggctta-----a--atw---tgt---tccggaga-c-tcag----ccttggccgcgg--gaatgkttwg----gacagaagwtacttagggcccagta"/>
+                    <sequence id="seq_18Oki13_complex" spec="Sequence" taxon="18Oki13_complex" totalcount="4" value="tccctcagtktg---------aa---tat---gccagaga-c-ycag----ccttggccgcsg--gaatgttttggaatgacagaagatacytagggc-cagta"/>
+                    <sequence id="seq_18Oki14_complex" spec="Sequence" taxon="18Oki14_complex" totalcount="4" value="tsyctcagttyg---------aa---tat---gccagaga-c-ycag----cyttggccgcsg--gaatgtttwg----gacwrrwsawrsytagggc-cagta"/>
+                    <sequence id="seq_18Oki15_complex" spec="Sequence" taxon="18Oki15_complex" totalcount="4" value="tccctcagytyg---------aa---tat---gccagaga-c-ccag----ccttggccgccg--gaatgttttg----gacagaagatacctagggc-cagta"/>
+                    <sequence id="seq_18Oki16_complex" spec="Sequence" taxon="18Oki16_complex" totalcount="4" value="tccc-cagtttg---------aa---tat---gccagaga-c-ycag----ccttggccgccg--gaatgttttg----gacagaagatacytagggc-cagta"/>
+                    <sequence id="seq_18Oki17_complex" spec="Sequence" taxon="18Oki17_complex" totalcount="4" value="tsyctcagttcg---------aa---tat---gccagaga-c-tcag----cyttggccgcgg--gaatgttttggaatgacagaagatacttagggc-cagta"/>
+                    <sequence id="seq_18Oki18_complex" spec="Sequence" taxon="18Oki18_complex" totalcount="4" value="tsyctcagttyg---------aa---tat---gccagaga-c-ycag----ccttggccgccg--gaatgttttg----gacagaagatacctagggc-cagta"/>
+                    <sequence id="seq_18Oki19_complex" spec="Sequence" taxon="18Oki19_complex" totalcount="4" value="tgtstaagcttg-----a----a---kgc---tccggaga-cctcagcatgccttggccgcgg--gaatgtttag----gacagaagawacttagggcccagta"/>
+                    <sequence id="seq_18Oki20_complex" spec="Sequence" taxon="18Oki20_complex" totalcount="4" value="tgtctaagcttg-----a----a---tgc---tccggaga-c-tcag----ycttggccgcgr--gaatgtttag----rrywrrwsaarsttasrgyccagta"/>
+                    <sequence id="seq_18Oki21_complex" spec="Sequence" taxon="18Oki21_complex" totalcount="4" value="tgtgtaagcttg-----a----a---tgc---tccrgaga-c-tcag----ccttggccgcggtagaatgtttag----gacaraagaaacttagggcccagta"/>
+                    <sequence id="seq_18Oki22_complex" spec="Sequence" taxon="18Oki22_complex" totalcount="4" value="tgtctmagcttgaaatga----aacgggt---tccrgaga-c-tcag----tcttggccgcga----------------agttagtcaaggttasrgyccagta"/>
+                    <sequence id="seq_18Oki23_complex" spec="Sequence" taxon="18Oki23_complex" totalcount="4" value="tgtstaagcttg-----a----a---kgy---tccagaga-c-ycag----ccttggccgcgg--gaatgtttwg----gacagaagawacttagrgcccagta"/>
+                    <sequence id="seq_18Oki24_complex" spec="Sequence" taxon="18Oki24_complex" totalcount="4" value="tstctmagytyg-----a----a---kgttactccggaga-c-ccag----ccttggccgcgg--gaatgtttag----gacaaaagaaacttacgacccagta"/>
+                    <sequence id="seq_18Oki25_complex" spec="Sequence" taxon="18Oki25_complex" totalcount="4" value="cgtctcggctta-----a--atw---tgt---tccggaga-c-tcag----ccttggccgcgg--gaatgtttwg----gacagaagwtacttagggcccagta"/>
+                    <sequence id="seq_18Oki26_complex" spec="Sequence" taxon="18Oki26_complex" totalcount="4" value="ygtctcggctta-----a--atw---tgt---tccrgaga-c-tcag----ccttggccgcgg--gaatgttttg----gacagaagttacttagggy-cagta"/>
+                    <sequence id="seq_18Oki27_complex" spec="Sequence" taxon="18Oki27_complex" totalcount="4" value="tgtctcggctta---------at---tgt---tccggaga-c-tcag----ccttggccgcgg--gaatgkttwg----gacagaagwtacttagggcccagta"/>
+                    <sequence id="seq_18Oki28_complex" spec="Sequence" taxon="18Oki28_complex" totalcount="4" value="tgtctcggctta-----aatatt---tgt---kccggagg-c-tcag----ccttggccgcgg--gaatggttag----gacagaakatacttagggtccagta"/>
+                    <sequence id="seq_18Oki29_complex" spec="Sequence" taxon="18Oki29_complex" totalcount="4" value="tgtctcrgcttr---------at---tgt---tccggagr-c-tcag----ccttggccgcgg--gaatgkttag----gacagaagawacttagggtccagta"/>
+                    <sequence id="seq_18Oki30_complex" spec="Sequence" taxon="18Oki30_complex" totalcount="4" value="tgtctcggctta-----a--atw---tgt---kccrgaga-c-tcag----ccttggccgcgg--gaatgttttg----gacagaagttacttagggy-cagta"/>
+                    <sequence id="seq_18Oki31_complex" spec="Sequence" taxon="18Oki31_complex" totalcount="4" value="tsyctcagtgyg-----a----a---trt---kccrgaga-c-ccag----ccttggccgccg--gaatgttttg----gacagaagatacctagggc-cagta"/>
+                    <sequence id="seq_18Oki32_complex" spec="Sequence" taxon="18Oki32_complex" totalcount="4" value="tccctcagtktg---------aa---tat---gccagaga-c-ycag----ccttggccgcsg--gaatgtttwg----gacwrrwsawrsytagggc-cagta"/>
+                    <sequence id="seq_18Oki33_complex" spec="Sequence" taxon="18Oki33_complex" totalcount="4" value="tccc-cagtttg---------aa---tat---gccagaga-c-ycag----ccttggccgccg--gaatgttttg----gacagaagatacctagggc-cagta"/>
+                    <sequence id="seq_18Oki34_complex" spec="Sequence" taxon="18Oki34_complex" totalcount="4" value="tccctcagtktg---------aa---trt---gccagaga-c-tcag----ccttggccgcsg--gaatgttttggaatgacagaagatacytagggc-cagta"/>
+                    <sequence id="seq_18Oki35_complex" spec="Sequence" taxon="18Oki35_complex" totalcount="4" value="tccc-cagtttg---------aa---tat---gccagaga-c-ycag----cyttggccgcsg--gaatgttttg----gacagaagatacytagggc-cagta"/>
+                    <sequence id="seq_18Oki36_complex" spec="Sequence" taxon="18Oki36_complex" totalcount="4" value="tccctcagtgtg---------aa---tat---gccagaga-c-ycag----cyttggccgcsg--gaatgtttwg----gacwrrwsawrsytagggc-cagta"/>
+                    <sequence id="seq_AMILgenome_Amil" spec="Sequence" taxon="AMILgenome_Amil" totalcount="4" value="tctctcatctcg---------aa---tgt---ttagagga-c-ttct----c---------gg--gaatgtttag----gacagaagaaactttgggccagtat"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run spec='beast.inference.PathSampler'
+chainLength="100000"
+alpha='0.3'
+rootdir='./tmp/step'
+burnInPercentage='20'
+preBurnin="10000"
+deleteOldLogs='true'
+nrOfSteps='48'>
+
+cd $(dir)
+java -cp $(java.class.path) beast.app.beastapp.BeastMain $(resume/overwrite) -java -seed $(seed) beast.xml
+
+
+<mcmc id="mcmc" spec="MCMC" chainLength="100000" preBurnin="10000" storeEvery="1000">
+    <state id="state" spec="State" storeEvery="1000">
+        <stateNode id="Tree.snp3nuTC_H3_1sp" spec="beast.util.ClusterTree" clusterType="upgma" nodetype="snap.NodeData">
+            <taxa id="snap.snp3nuTC_H3_1sp" spec="snap.Data" dataType="integerdata">
+                <rawdata idref="snp3nuTC_H3_1sp"/>
+                <taxonset id="Amil" spec="TaxonSet">
+                    <taxon id="AMILgenome_Amil" spec="Taxon"/>
+                </taxonset>
+                <taxonset id="complex" spec="TaxonSet">
+                    <taxon id="18Oki01_complex" spec="Taxon"/>
+                    <taxon id="18Oki02_complex" spec="Taxon"/>
+                    <taxon id="18Oki03_complex" spec="Taxon"/>
+                    <taxon id="18Oki06_complex" spec="Taxon"/>
+                    <taxon id="18Oki20_complex" spec="Taxon"/>
+                    <taxon id="18Oki19_complex" spec="Taxon"/>
+                    <taxon id="18Oki23_complex" spec="Taxon"/>
+                    <taxon id="18Oki21_complex" spec="Taxon"/>
+                    <taxon id="18Oki05_complex" spec="Taxon"/>
+                    <taxon id="18Oki22_complex" spec="Taxon"/>
+                    <taxon id="18Oki24_complex" spec="Taxon"/>
+                    <taxon id="18Oki04_complex" spec="Taxon"/>
+                    <taxon id="18Oki07_complex" spec="Taxon"/>
+                    <taxon id="18Oki25_complex" spec="Taxon"/>
+                    <taxon id="18Oki09_complex" spec="Taxon"/>
+                    <taxon id="18Oki12_complex" spec="Taxon"/>
+                    <taxon id="18Oki26_complex" spec="Taxon"/>
+                    <taxon id="18Oki08_complex" spec="Taxon"/>
+                    <taxon id="18Oki10_complex" spec="Taxon"/>
+                    <taxon id="18Oki28_complex" spec="Taxon"/>
+                    <taxon id="18Oki11_complex" spec="Taxon"/>
+                    <taxon id="18Oki27_complex" spec="Taxon"/>
+                    <taxon id="18Oki30_complex" spec="Taxon"/>
+                    <taxon id="18Oki29_complex" spec="Taxon"/>
+                    <taxon id="18Oki13_complex" spec="Taxon"/>
+                    <taxon id="18Oki32_complex" spec="Taxon"/>
+                    <taxon id="18Oki34_complex" spec="Taxon"/>
+                    <taxon id="18Oki36_complex" spec="Taxon"/>
+                    <taxon id="18Oki16_complex" spec="Taxon"/>
+                    <taxon id="18Oki33_complex" spec="Taxon"/>
+                    <taxon id="18Oki35_complex" spec="Taxon"/>
+                    <taxon id="18Oki14_complex" spec="Taxon"/>
+                    <taxon id="18Oki18_complex" spec="Taxon"/>
+                    <taxon id="18Oki17_complex" spec="Taxon"/>
+                    <taxon id="18Oki31_complex" spec="Taxon"/>
+                    <taxon id="18Oki15_complex" spec="Taxon"/>
+                </taxonset>
+            </taxa>
+            <parameter id="RealParameter.0" spec="parameter.RealParameter" lower="0.0" name="clock.rate" upper="0.0">1.0</parameter>
+        </stateNode>
+        <parameter id="lambda" spec="parameter.RealParameter" lower="0.0" name="stateNode">10.0</parameter>
+        <parameter id="coalescenceRate" spec="parameter.RealParameter" name="stateNode">10.0</parameter>
+    </state>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <prior id="lambdaPrior.snp3nuTC_H3_1sp" name="distribution" x="@lambda">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="alpha">2.0</parameter>
+                    <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="beta">200.0</parameter>
+                </Gamma>
+            </prior>
+            <distribution id="snapprior.snp3nuTC_H3_1sp" spec="snap.likelihood.SnAPPrior" coalescenceRate="@coalescenceRate" lambda="@lambda" tree="@Tree.snp3nuTC_H3_1sp">
+                <parameter id="alpha" spec="parameter.RealParameter" estimate="false" lower="0.0" name="alpha">1.0</parameter>
+                <parameter id="beta" spec="parameter.RealParameter" estimate="false" lower="0.0" name="beta">250.0</parameter>
+                <parameter id="kappa" spec="parameter.RealParameter" estimate="false" lower="0.0" name="kappa">1.0</parameter>
+            </distribution>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution">
+            <distribution id="treeLikelihood.snp3nuTC_H3_1sp" spec="snap.likelihood.SnAPTreeLikelihood" data="@snap.snp3nuTC_H3_1sp" non-polymorphic="false" pattern="coalescenceRate" tree="@Tree.snp3nuTC_H3_1sp">
+                <siteModel id="MutationSiteModel.snp3nuTC_H3_1sp" spec="SiteModel">
+                    <parameter id="mutationRate" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="shape" spec="parameter.RealParameter" estimate="false" name="shape">2.0</parameter>
+                    <parameter id="proportionInvariant" spec="parameter.RealParameter" estimate="false" name="proportionInvariant">0.0</parameter>
+                    <substModel id="MutationModel" spec="snap.likelihood.SnapSubstitutionModel" coalescenceRate="@coalescenceRate">
+                        <parameter id="u" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRateU">1.0</parameter>
+                        <parameter id="v" spec="parameter.RealParameter" lower="0.0" name="mutationRateV">1.0</parameter>
+                    </substModel>
+                </siteModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="NodeSwapper" spec="snap.operators.NodeSwapper" tree="@Tree.snp3nuTC_H3_1sp" weight="0.5"/>
+
+    <operator id="NodeBudger" spec="snap.operators.NodeBudger" size="0.5" tree="@Tree.snp3nuTC_H3_1sp" weight="0.5"/>
+
+    <operator id="TreeScaler" spec="snap.operators.ScaleOperator" scaleFactor="0.25" tree="@Tree.snp3nuTC_H3_1sp" weight="0.5"/>
+
+    <operator id="GammaMover" spec="snap.operators.GammaMover" coalescenceRate="@coalescenceRate" scale="0.5" weight="8.0"/>
+
+    <operator id="RateMixer" spec="snap.operators.RateMixer" coalescenceRate="@coalescenceRate" scaleFactors="0.25" tree="@Tree.snp3nuTC_H3_1sp" weight="1.0"/>
+
+    <operator id="lambdaScaler" spec="snap.operators.ScaleOperator" parameter="@lambda" scaleFactor="0.75" weight="1.0"/>
+
+    <logger id="tracelog" spec="Logger" fileName="snap1sp.log" logEvery="1000" model="@posterior">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log id="ThetaLogger" spec="snap.ThetaLogger" coalescenceRate="@coalescenceRate"/>
+        <log id="TreeHeightLogger" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.snp3nuTC_H3_1sp"/>
+    </logger>
+
+    <logger id="screenlog" spec="Logger" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog" spec="Logger" fileName="snap1sp.trees" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.snp3nuTC_H3_1sp" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.snp3nuTC_H3_1sp">
+            <metadata id="theta" spec="snap.RateToTheta" coalescenceRate="@coalescenceRate"/>
+        </log>
+    </logger>
+</mcmc>
+</run>
+
+</beast>
