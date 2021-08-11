@@ -1,0 +1,155 @@
+#!/bin/bash
+
+### Examples of command used for the Phasing PHYLUCE pipeline ###
+
+## Modules that can be required:
+module load java/1.7.0-openjdk
+module load python/2.7.14
+module load anaconda2
+
+# 1. Align and trim edges for loci recovered from the nine tabular samples employing PHYLUCE:
+
+source activate phyluce
+
+## For exon-derived loci:
+phyluce_align_seqcap_align \
+    --fasta acro-phase-exon-incomplete.fasta  \
+    --output trimmed-mafft-nexus-exon \
+    --taxa 9 \
+    --aligner mafft \
+    --cores 20 \
+    --incomplete-matrix \
+    --log-path log
+	
+# Get summary stats
+phyluce_align_get_align_summary_data \
+    --alignments trimmed-mafft-nexus-exon \
+    --cores 20 \
+    --log-path log
+
+## For UCE-derived loci:
+
+phyluce_align_seqcap_align \
+    --fasta acro-phase-uce-incomplete.fasta  \
+    --output trimmed-mafft-nexus-uce \
+    --taxa 9 \
+    --aligner mafft \
+    --cores 20 \
+    --incomplete-matrix \
+    --log-path log
+	
+# Get summary stats
+phyluce_align_get_align_summary_data \
+    --alignments trimmed-mafft-nexus-uce \
+    --cores 20 \
+    --log-path log
+	
+	
+# 2. Following the PHYLUCE phasing tutorial (https://phyluce.readthedocs.io/en/latest/tutorial-two.html)
+
+## A. Explode alignment files by taxon:
+phyluce_align_explode_alignments \
+    --alignments trimmed-mafft-nexus-exon \
+    --input-format nexus \
+    --output mafft-nexus-edge-trimmed-exploded-exon \
+    --by-taxon
+
+phyluce_align_explode_alignments \
+    --alignments trimmed-mafft-nexus-uce \
+    --input-format nexus \
+    --output mafft-nexus-edge-trimmed-exploded-uce \
+    --by-taxon
+
+## B. Get summary stats on the FASTA files:
+for i in mafft-nexus-edge-trimmed-exploded-exon/*.fasta;
+do
+    phyluce_assembly_get_fasta_lengths --input $i --csv;
+done
+
+for i in mafft-nexus-edge-trimmed-exploded-uce/*.fasta;
+do
+    phyluce_assembly_get_fasta_lengths --input $i --csv;
+done
+
+## C. Map the fastq read files against the contig reference database using bwa mem implemente by PHYLUCE:
+
+phyluce_snp_bwa_multiple_align \
+    --config phasing-exon.conf \
+    --output multialign-bams-exon \
+    --cores 12 \
+    --log-path log \
+    --mem
+
+phyluce_snp_bwa_multiple_align \
+    --config phasing-uce.conf \
+    --output multialign-bams-uce \
+    --cores 12 \
+    --log-path log \
+    --mem
+
+## D. Phase using the information from the mapped reads:
+phyluce_snp_phase_uces \
+    --config phasing-exon.conf \
+    --bams multialign-bams-exon \
+    --output multialign-bams-exon-phased-reads
+
+phyluce_snp_phase_uces \
+    --config phasing-uce.conf \
+    --bams multialign-bams-uce \
+    --output multialign-bams-uce-phased-reads
+
+
+# 3. Align phased sequences:
+
+phyluce_align_seqcap_align \
+    --fasta multialign-bams-exon-phased-reads/fastas/joined_allele_sequences_all_samples.fasta \
+    --output PHASED-DATA/multialign-bams-exon-phased\
+    --taxa 9 \
+    --aligner mafft \
+    ––no-trim \
+    ––ambiguous \
+    --cores 12 \
+    --incomplete-matrix \
+    --log-path log
+	
+phyluce_align_seqcap_align \
+    --fasta multialign-bams-uce-phased-reads/fastas/joined_allele_sequences_all_samples.fasta \
+    --output PHASED-DATA/multialign-bams-uce-phased \
+    --taxa 9 \
+    --aligner mafft \
+    ––no-trim \
+    ––ambiguous \
+    --cores 12 \
+    --incomplete-matrix \
+    --log-path log
+
+# 4. Trim sequences globally using Gblocks implemented by PHYLUCE:
+
+phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed \
+    --alignments PHASED-DATA/multialign-bams-exon-phased \
+    --output PHASED_DATA/gblocks-multialign-exon-phased \
+    --cores 40 \
+    --log log
+
+phyluce_align_get_gblocks_trimmed_alignments_from_untrimmed \
+    --alignments PHASED-DATA/multialign-bams-uce-phased \
+    --output PHASED_DATA/gblocks-multialign-uce-phased \
+    --cores 40 \
+    --log log
+
+
+# 5. Screen alignments for ambiguities and unphased bases that can cause problems downstream:
+
+phyluce_align_screen_alignments_for_problems \
+      --alignments PHASED_DATA/gblocks-multialign-exon-phased \
+      --output PHASED_DATA/gblocks-multialign-exon-phased-screen \
+      --input-format fasta \
+      --log-path log \
+      --cores 1
+      
+phyluce_align_screen_alignments_for_problems \
+      --alignments PHASED_DATA/gblocks-multialign-uce-phased \
+      --output PHASED_DATA/gblocks-multialign-uce-phased-screen \
+      --input-format fasta \
+      --log-path log \
+      --cores 1
